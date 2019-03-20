@@ -58,7 +58,7 @@ def message(fenetre, text, size, x, y):
 def caseactuelle(x,y):
     my_x = x // 64
     my_y = y // 64
-    print(my_x, my_y, carte[my_y][my_x])
+    #print(my_x, my_y, carte[my_y][my_x])
     return carte[my_y][my_x]
 
 
